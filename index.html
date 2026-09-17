@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            max-width: 650px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #2d3748;
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #718096;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+        h2 {
+            color: #4a5568;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 6px;
+        }
+        ul { list-style: none; }
+        ul li {
+            padding: 8px 0;
+            color: #4a5568;
+            font-size: 16px;
+        }
+        ul li::before {
+            content: "▸ ";
+            color: #667eea;
+            font-weight: bold;
+        }
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        .badge {
+            display: inline-block;
+            background: #edf2f7;
+            color: #4a5568;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin: 4px 4px 4px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>👋 Привет, я — [F,kf[Аблайхан]</h1>
+        <p class="subtitle">Студент | Будущий DevOps-инженер</p>
+
+        <h2>🎓 Учебное заведение</h2>
+        <p>[Казахский агротехнический исследовательский университет имени Сакена Сейфуллина]</p>
+        <p style="color:#718096; font-size:14px; margin-top:4px;">Специальность: [DevOps]</p>
+
+        <h2>💻 Языки программирования</h2>
+        <div>
+            <span class="badge">Python</span>
+            <span class="badge">Bash</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">SQL</span>
+            <span class="badge">HTML/CSS</span>
+        </div>
+
+        <h2>📫 Контакты</h2>
+        <ul>
+            <li>Email: <a href="mailto:[твой@email.com]">[kudos2754@gmail.com]</a></li>
+            <li>GitHub: <a href="https://github.com/exzw13">github.com/exzw13</a></li>
+            <li>Telegram: <a href="https://t.me/[exzwl3]">@[exzwl3]</a></li>
+        </ul>
+    </div>
+</body>
+</html>
